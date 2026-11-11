@@ -1,0 +1,12 @@
+{
+  "name": "@oscar/validators",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "zod": "^4.6.7"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

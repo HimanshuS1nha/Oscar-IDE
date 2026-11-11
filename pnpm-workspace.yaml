@@ -1,0 +1,14 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+allowBuilds:
+  argon2: true
+  electron: true
+  # Squirrel.Windows installer; the app builds NSIS installers instead.
+  electron-winstaller: false
+  esbuild: true
+  # Its install script only prints "no-op".
+  "@google/genai": false
+  node-pty: true
+  # Its install script only prints a version-scheme warning.
+  protobufjs: false
